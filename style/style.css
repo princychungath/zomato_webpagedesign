@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Okra, Helvetica, sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 80vh;
+  
+  position: relative;
+  object-fit: cover;
+  margin-bottom: 2rem;  
+}
+.header-image{
+  width: 100%;
+  position: absolute;
+  top: -10vh;
+  z-index: -1;
+}
+.header-image img{
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 228px;
+}
+.navcls {
+  list-style-type: none;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 0.8rem !important;
+}
+.logo {
+  transform: translate(375px, 144px);
+}
+.logo img {
+  height: 65px;
+  transform: translateX(167px);
+  margin-bottom: 35px;
+}
+h3 {
+  width: 40rem;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+.heading {
+  display: flex;
+  margin-top: 6rem;
+  -moz-box-pack: center;
+  justify-content: center;
+}
+.headimg{
+  display: flex;
+  align-items: center;
+  
+}
+.head1{
+  font-size: 2rem;
+  line-height: 3rem;
+  color: rgb(28, 28, 28);
+  margin: 0px;
+  margin-right: 15px;
+}
+h2{
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.country-description {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+}
+
+.country-description p{
+  max-width: 68rem;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: rgb(105, 105, 105);
+}
+.flag{
+  height: 35px;
+}
+
+.margin {
+  margin: 0 200px 50px;
+}
+.state {
+  padding-top: 7.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.box {
+  border: 1px solid rgb(232, 232, 232);
+  padding: 0rem 1rem;
+  border-radius: 0.8rem;
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 1.5rem;
+}
+.content a {
+  text-decoration: none;
+  color: black;
+}
+.content h5 {
+  font-size: 1.1rem;
+  line-height: 1.2;
+  font-weight: 100;
+  color: rgb(28, 28, 28);
+  margin: 0px;
+
+  padding-right: 50px;
+}
+.content i {
+  font-size: 0.8rem;
+}
+
+
+
+
+.country {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.countries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.countries img {
+  padding-right: 10px;
+}
+.country-flags {
+  height: 35px;
+}
+.country-name {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+}
+
+
+
+ 
+  .margin1 {
+    margin: 0 200px;
+  }
+  footer {
+    width: 100%;
+    background: rgb(248, 248, 248);
+  }
+  
+  .footer-logo {
+    height: 1.8rem;
+  }
+  .section-1 {
+    padding: 4.8rem 0px 2.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flag {
+    height: 2rem;
+  }
+  .drop-down {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  section {
+    display: flex;
+  }
+  .box-1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    margin-right: 20px;
+  }
+  .title-1 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .col-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 18.3333%;
+    margin-right: 50px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-1 a {
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: rgb(105, 105, 105);
+    margin: 0.8rem 0px;
+  }
+  .col-1 a:hover {
+    color: black;
+  }
+  .fyZwWD {
+    height: 35px;
+  
+    object-fit: cover;
+  }
+  .sec-2 {
+    margin-top: 0.5rem;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+  }
+  h6 {
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 1rem;
+  }
+  hr {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .footer-para {
+    font-size: 1rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+    padding-bottom: 1rem;
+  }
+  .social-icons i {
+    font-size: 20px;
+    margin-right: 0.3rem;
+  }
